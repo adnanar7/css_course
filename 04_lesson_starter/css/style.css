@@ -1,0 +1,26 @@
+* {    /*CSS reset , it nullify the autmoatic css of the browser.*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{       /*header is the parent of h1*/
+    width: 50%;
+}
+
+h1{
+    border: 2px dashed red;
+    width: 50%;                    /*so now h1 is taking 50% of the 50% of header.*/
+    font-size: 3rem;
+    padding: 0.5em;   /* now this em is relative to the 3rem in the same element h1 , so it will be 48/2  px as 3rem = 48px*/
+}
+
+
+main{
+    font-size: 2rem;    /*it is relative to root element(html) which is not present so it is considering the browser default font-size as root that is probably 16px so it will maake the main text 32px as it is 2rem.*/
+}
+
+p {
+    font-size: 2em;  /*as it is em instead of rem , so it is relative to parent that is main , so it gonna make the text 64px as main is 32px, so 2em gonna double it.*/
+}
