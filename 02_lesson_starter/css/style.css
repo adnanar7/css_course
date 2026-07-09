@@ -1,0 +1,46 @@
+* {
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+body {
+    font-size: 22px;                  /* Inheritance occuring*/      
+    background-color: beige;
+    border: solid 1px black;        /* Not inheritance*/
+}
+
+h1, h2 {
+    color: chartreuse;
+}
+
+.gray {
+    color: aqua;
+}
+
+p {
+    color: chocolate;
+}
+
+p {
+    color: red;
+}
+
+/* p span {
+    text-transform: capitalize;
+    background-color: yellow;
+} */
+
+.highlight {
+    text-transform: capitalize;
+    background-color: yellow;
+}
+ 
+/* .gray {
+    color: aqua;
+} */
+
+#second {
+    font-style: italic;
+    color: blue;
+}
+
+
